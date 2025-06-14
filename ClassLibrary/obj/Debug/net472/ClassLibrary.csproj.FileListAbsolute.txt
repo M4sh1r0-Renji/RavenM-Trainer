@@ -1,0 +1,19 @@
+D:\Desktop\.git\RavenM Trainer\ClassLibrary\obj\Debug\net472\ClassLibrary.csproj.AssemblyReference.cache
+D:\Desktop\.git\RavenM Trainer\ClassLibrary\obj\Debug\net472\ClassLibrary.GeneratedMSBuildEditorConfig.editorconfig
+D:\Desktop\.git\RavenM Trainer\ClassLibrary\obj\Debug\net472\ClassLibrary.AssemblyInfoInputs.cache
+D:\Desktop\.git\RavenM Trainer\ClassLibrary\obj\Debug\net472\ClassLibrary.AssemblyInfo.cs
+D:\Desktop\.git\RavenM Trainer\ClassLibrary\obj\Debug\net472\ClassLibrary.csproj.CoreCompileInputs.cache
+D:\Desktop\.git\RavenM Trainer\ClassLibrary\bin\Debug\net472\ClassLibrary.dll
+D:\Desktop\.git\RavenM Trainer\ClassLibrary\bin\Debug\net472\ClassLibrary.pdb
+D:\Desktop\.git\RavenM Trainer\ClassLibrary\bin\Debug\net472\0Harmony.dll
+D:\Desktop\.git\RavenM Trainer\ClassLibrary\bin\Debug\net472\Assembly-CSharp.dll
+D:\Desktop\.git\RavenM Trainer\ClassLibrary\bin\Debug\net472\BepInEx.dll
+D:\Desktop\.git\RavenM Trainer\ClassLibrary\bin\Debug\net472\ImGui.NET.dll
+D:\Desktop\.git\RavenM Trainer\ClassLibrary\bin\Debug\net472\UnityEngine.CoreModule.dll
+D:\Desktop\.git\RavenM Trainer\ClassLibrary\bin\Debug\net472\UnityEngine.dll
+D:\Desktop\.git\RavenM Trainer\ClassLibrary\bin\Debug\net472\UnityEngine.InputLegacyModule.dll
+D:\Desktop\.git\RavenM Trainer\ClassLibrary\obj\Debug\net472\ClassLibrary.csproj.CopyComplete
+E:\SteamLibrary\steamapps\common\Ravenfield\BepInEx\plugins\net472\RavenfieldTrainer.dll
+E:\SteamLibrary\steamapps\common\Ravenfield\BepInEx\plugins\net472\RavenfieldTrainer.pdb
+D:\Desktop\.git\RavenM Trainer\ClassLibrary\obj\Debug\net472\RavenfieldTrainer.dll
+D:\Desktop\.git\RavenM Trainer\ClassLibrary\obj\Debug\net472\RavenfieldTrainer.pdb

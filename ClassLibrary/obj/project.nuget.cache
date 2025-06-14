@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "T7zIL0hsu4/RKeIrII1fezqXY/ESG2XtEwebYKW/m/iXrnUhf1tS7QHU0u28yzVw5g0DXc3L4QbOj/GPvjcryQ==",
+  "success": true,
+  "projectFilePath": "D:\\Desktop\\.git\\RavenM Trainer\\ClassLibrary\\ClassLibrary.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\28398\\.nuget\\packages\\microsoft.netframework.referenceassemblies\\1.0.2\\microsoft.netframework.referenceassemblies.1.0.2.nupkg.sha512",
+    "C:\\Users\\28398\\.nuget\\packages\\microsoft.netframework.referenceassemblies.net472\\1.0.2\\microsoft.netframework.referenceassemblies.net472.1.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}
