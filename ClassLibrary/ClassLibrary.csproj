@@ -1,46 +1,102 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>net472</TargetFramework>
+    <!-- Ravenfield+BepInEx 5.x 一般用 .NET Framework 4.6 -->
+    <TargetFramework>net46</TargetFramework>
+    <!-- 输出到 Ravenfield 的插件目录 -->
+    <OutputPath>D:\SteamLibrary\steamapps\common\Ravenfield\BepInEx\plugins\</OutputPath>
+    <!-- 允许 unsafe（0Harmony 可能用到） -->
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
-    <AssemblyName>RavenfieldTrainer</AssemblyName>
   </PropertyGroup>
 
   <ItemGroup>
     <Reference Include="BepInEx">
-      <HintPath>libs\BepInEx.dll</HintPath>
+      <HintPath>..\..\..\AppData\Roaming\r2modmanPlus-local\Ravenfield\profiles\testmodding\BepInEx\core\BepInEx.dll</HintPath>
+      <Private>false</Private>
     </Reference>
-    <Reference Include="UnityEngine">
-      <HintPath>libs\UnityEngine.dll</HintPath>
+    <Reference Include="BepInEx.Unity">
+      <HintPath>..\..\..\AppData\Roaming\r2modmanPlus-local\Ravenfield\profiles\testmodding\BepInEx\core\BepInEx.Unity.dll</HintPath>
+      <Private>false</Private>
     </Reference>
+
     <Reference Include="0Harmony">
-      <HintPath>libs\0Harmony.dll</HintPath>
+      <HintPath>..\..\..\AppData\Roaming\r2modmanPlus-local\Ravenfield\profiles\testmodding\BepInEx\core\0Harmony.dll</HintPath>
+      <Private>false</Private>
     </Reference>
-    <Reference Include="Assembly-CSharp">
-      <HintPath>libs\Assembly-CSharp.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.CoreModule">
-      <HintPath>libs\UnityEngine.CoreModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.IMGUIModule">
-      <HintPath>libs\UnityEngine.IMGUIModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UI">
-      <HintPath>libs\UnityEngine.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.InputLegacyModule">
-      <HintPath>libs\UnityEngine.InputLegacyModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.SharedInternalsModule">
-      <HintPath>libs\UnityEngine.SharedInternalsModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.TextRenderingModule">
-      <HintPath>libs\UnityEngine.TextRenderingModule.dll</HintPath>
-    </Reference>
+
     <Reference Include="ImGui.NET">
       <HintPath>libs\ImGui.NET.dll</HintPath>
+      <Private>false</Private>
     </Reference>
-    <Reference Include="BepInEx.Debug.MirrorInternalLogs">
-      <HintPath>libs\BepInEx.Debug.MirrorInternalLogs.dll</HintPath>
+    
+    <Reference Include="Assembly-CSharp">
+      <HintPath>D:\SteamLibrary\steamapps\common\Ravenfield\ravenfield_Data\Managed\Assembly-CSharp.dll</HintPath>
+      <Private>false</Private>
     </Reference>
+    <Reference Include="Assembly-CSharp-firstpass">
+      <HintPath>D:\SteamLibrary\steamapps\common\Ravenfield\ravenfield_Data\Managed\Assembly-CSharp-firstpass.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="AstarPathfindingProject">
+      <HintPath>D:\SteamLibrary\steamapps\common\Ravenfield\ravenfield_Data\Managed\AstarPathfindingProject.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+
+    <Reference Include="UnityEngine">
+      <HintPath>D:\SteamLibrary\steamapps\common\Ravenfield\ravenfield_Data\Managed\UnityEngine.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>D:\SteamLibrary\steamapps\common\Ravenfield\ravenfield_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+      <HintPath>D:\SteamLibrary\steamapps\common\Ravenfield\ravenfield_Data\Managed\UnityEngine.AnimationModule.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule">
+      <HintPath>D:\SteamLibrary\steamapps\common\Ravenfield\ravenfield_Data\Managed\UnityEngine.AudioModule.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="UnityEngine.InputLegacyModule">
+      <HintPath>D:\SteamLibrary\steamapps\common\Ravenfield\ravenfield_Data\Managed\UnityEngine.InputLegacyModule.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>D:\SteamLibrary\steamapps\common\Ravenfield\ravenfield_Data\Managed\UnityEngine.PhysicsModule.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>D:\SteamLibrary\steamapps\common\Ravenfield\ravenfield_Data\Managed\UnityEngine.TextRenderingModule.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>D:\SteamLibrary\steamapps\common\Ravenfield\ravenfield_Data\Managed\UnityEngine.UI.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>D:\SteamLibrary\steamapps\common\Ravenfield\ravenfield_Data\Managed\UnityEngine.UIModule.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SharedInternalsModule">
+      <HintPath>D:\SteamLibrary\steamapps\common\Ravenfield\ravenfield_Data\Managed\UnityEngine.SharedInternalsModule.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="UnityEngine.RenderingModule">
+      <HintPath>D:\SteamLibrary\steamapps\common\Ravenfield\ravenfield_Data\Managed\UnityEngine.RenderingModule.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="UnityEngine.XRModule">
+      <HintPath>D:\SteamLibrary\steamapps\common\Ravenfield\ravenfield_Data\Managed\UnityEngine.XRModule.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ParticleSystemModule">
+      <HintPath>D:\SteamLibrary\steamapps\common\Ravenfield\ravenfield_Data\Managed\UnityEngine.ParticleSystemModule.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>$(RavenfieldDir)\ravenfield_Data\Managed\UnityEngine.IMGUIModule.dll</HintPath>
+     <Private>false</Private>
+    </Reference>
+
   </ItemGroup>
 </Project>
